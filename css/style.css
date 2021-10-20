@@ -1,0 +1,114 @@
+#banner {
+  margin: 50px;
+}
+
+#banner .basket i {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#banner .basket .content {
+  visibility: hidden;
+  border-top: 2px solid #1abc9c;
+  -webkit-box-shadow: 0 20px 50px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 20px 50px 10px rgba(0, 0, 0, 0.05);
+}
+
+#banner .basket .content.tosu {
+  visibility: visible;
+}
+
+#banner .basket .content .basket-title {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+#banner .basket .content .basket-title h4 {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#banner .basket .content .basket-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 2px solid #eee;
+  margin: 15px 15px;
+}
+
+#banner .basket .content .basket-item .image-task {
+  height: 52px;
+  border: 2px solid #eee;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#banner .basket .content .basket-item .image-task:hover {
+  border-color: #1abc9c;
+}
+
+#banner .basket .content .basket-item .image-count {
+  position: relative;
+  padding-left: 15px;
+}
+
+#banner .basket .content .basket-item .image-count p {
+  font-size: 13px;
+  line-height: 1.25rem;
+  color: #333;
+  font-weight: 700;
+  cursor: pointer;
+  color: #444;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#banner .basket .content .basket-item .image-count p:hover {
+  color: #1abc9c;
+}
+
+#banner .basket .content .basket-item .image-count .sale {
+  font-size: 12px;
+  color: #999;
+}
+
+#banner .basket .content .basket-item .image-count .quvvet {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 14px;
+  color: #444;
+  line-height: 1.25rem;
+}
+
+#banner .basket .content .basket-footer {
+  padding-bottom: 10px;
+}
+
+#banner .basket .content .basket-footer .footer-sale {
+  color: #20c997;
+  font-size: 22px;
+  margin-right: 50px;
+  padding-left: 7px;
+  margin-left: 6px;
+}
+
+#banner .basket .content .basket-footer button {
+  background-color: #1abc9c;
+  padding: 5px 15px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  margin-left: 20px;
+  border-radius: 5px;
+  border-bottom: 3px solid #1aa179;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */
